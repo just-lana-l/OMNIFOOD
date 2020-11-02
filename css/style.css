@@ -198,8 +198,7 @@ input[type=submit] {
     color: #ffffff;
 }
 
-.logo,
-.logo-black {
+.logo {
     height: 100px;
     width: auto;
     float: left;
@@ -207,7 +206,11 @@ input[type=submit] {
 }
 
 .logo-black {
-    display: hidden;
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 10px 0;
 }
 /* MAIN nav */ 
 .main-nav {
@@ -251,14 +254,22 @@ input[type=submit] {
     left: 0;
     width: 100%;
     background-color: #ffffff;
+    opacity: 0.98;
+    box-shadow: 0 2px 4px #888888;
+    z-index: 99999;
 }
 
+.sticky .main-nav {
+    margin-top: 18px;
+}
 .sticky .main-nav li a:link,
-.sticky .main-nav li a:visited
- {
-    padding: 5px 0;
+.sticky .main-nav li a:visited {
+    padding: 15px 0;
     color: #555555;
 }
+
+.sticky .logo {display: none;} 
+.sticky .logo-black {display: block;}
 
 section {
     padding: 80px 0;
