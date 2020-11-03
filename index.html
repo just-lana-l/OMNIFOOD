@@ -21,18 +21,18 @@
                 <img src="./img/logo.png" alt="Omnifood logo" class="logo-black">
 
                 <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#delivery">Food delivery</a></li>
+                    <li><a href="#works">How it works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#sign-in">Sign up</a></li>
                 </ul>
             </div>
         </nav>
 
         <div class="hero-text-box">
             <h1>Goodbye junk food. <br> Hello super healthy meals</h1>
-            <a class="btn btn-full" href="">I’m hungry</a>
-            <a class="btn btn-ghost" href="">Show me more</a>
+            <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
         </div>
     </header>
 
@@ -132,7 +132,7 @@
         </ul>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id='works'>
         <div class="row">
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
@@ -164,7 +164,7 @@
         </div>
     </section>
 
-    <section class="section-cities">
+    <section class="section-cities" id='cities'>
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>   
@@ -264,10 +264,7 @@
                     a life-saver. 
                     Now that I got used to it, I couldn't live without my daily meals!
                 </blockquote>
-                <cite>
-                    <img src="./img/customer-1.jpg">
-                    Alberto Duncan
-                </cite>
+                <cite><img src="./img/customer-1.jpg">Alberto Duncan</cite>
             </div>
             <div class="col span-1-of-3">
                 <blockquote>
@@ -275,10 +272,7 @@
                     We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. 
                     Me and my family are so in love!
                 </blockquote>
-                <cite>
-                    <img src="./img/customer-2.jpg">
-                    Joana Silva
-                </cite>
+                <cite><img src="./img/customer-2.jpg">Joana Silva</cite>
             </div>
             <div class="col span-1-of-3">
                 <blockquote>
@@ -286,10 +280,7 @@
                     I tried a lot of them and ended up with Omnifood. 
                     Best food delivery service in the Bay Area. Keep up the great work!
                 </blockquote>
-                <cite>
-                    <img src="./img/customer-3.jpg">
-                    Milton Chapman
-                </cite>
+                <cite><img src="./img/customer-3.jpg">Milton Chapman</cite>
             </div>
         </div>
     </section>
@@ -298,14 +289,12 @@
 <!-- PLANS -->
 <!-------------------> 
 
-    <section class="section-plans">
+    <section class="section-plans js--section-plans" id='plans'>
         <div class="row">
             <h2>Start eating healthy today</h2>
         </div>
-
-        <!--------------->
+        
         <!--- Premium --->
-        <!--------------->
         <div class="row">
             <div class="col span-1-of-3">
                 <div class="plan-box">
@@ -328,9 +317,8 @@
                 </div>
             </div>
 
-        <!--------------->
         <!----- Pro ----->
-        <!--------------->
+     
         <div class="col span-1-of-3">
             <div class="plan-box">
                 <div> 
@@ -352,10 +340,8 @@
                 </div>
             </div>
         </div>
-
-        <!--------------->
+       
         <!--- Starter --->
-        <!--------------->
         <div class="col span-1-of-3">
             <div class="plan-box">
                 <div>
@@ -381,7 +367,7 @@
     </section>
 
 
-    <section class="section-form">
+    <section class="section-form" id='sign-in'>
         <div class="row">
             <h2>We're happy to hear from you</h2>
         </div>
@@ -414,7 +400,7 @@
                     <div class="col span-2-of-3">
                         <select name="find-us" id="find-us">
                             <option value="friends" selected>friends</option>
-                            <option value="search" >search engine</option>
+                            <option value="search">search engine</option>
                             <option value="ad">Advertisement</option>
                             <option value="other">Other</option>
                         </select>
@@ -455,9 +441,7 @@
 <!------------------->
 <!----- FOOTER ------>
 <!------------------->
-
     <footer>
-
         <div class="row">
             <div class="col span-1-of-2">
                 <ul class="footer-nav">
